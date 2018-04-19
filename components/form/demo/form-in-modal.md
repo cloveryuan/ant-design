@@ -87,7 +87,7 @@ class CollectionsPage extends React.Component {
     return (
       <div>
         <Button type="primary" onClick={this.showModal}>New Collection</Button>
-        <CollectionCreateForm
+        <CollectionCreateForm 
           wrappedComponentRef={this.saveFormRef}
           visible={this.state.visible}
           onCancel={this.handleCancel}
